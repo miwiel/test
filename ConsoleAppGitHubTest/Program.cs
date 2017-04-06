@@ -10,8 +10,26 @@ namespace ConsoleAppGitHubTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Primary prim = new Primary();
+            string helper = "";
+
+            Console.Write("Enter name: ");
+            helper = Console.ReadLine();
+
+            Console.WriteLine(prim.getName(helper));
+
             Console.ReadLine();
+        }
+    }
+
+    class Primary
+    {
+        public string getName(string name)
+        {
+            string result = "";
+            result = "Hello " + name;
+            return result;
+ 
         }
     }
 }
