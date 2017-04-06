@@ -36,4 +36,9 @@ namespace ConsoleAppGitHubTest
     class Test
     {
     }
+
+    class SecondClass
+    {
+
+    }
 }
