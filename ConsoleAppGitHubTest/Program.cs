@@ -32,4 +32,8 @@ namespace ConsoleAppGitHubTest
  
         }
     }
+    
+    class Test
+    {
+    }
 }
